@@ -1,3 +1,7 @@
 body {
   background-color: rgb(204, 81, 130);
 }
+
+h1 {
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+}
