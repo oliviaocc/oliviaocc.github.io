@@ -1,8 +1,13 @@
 body {
-  background-image: linear-gradient(90deg, rgb(231, 169, 169), rgb(105, 194, 242))
+  background: linear-gradient(pink); size: 200px;
   
 }
 
-p  {
-   color: rgb(245, 239, 230);   margin: 30px; 
+h1 {
+    font-family: 'Courier New', monospace; font-weight: 2000;
 }
+
+p  {
+   color: rgb(97, 144, 216);   margin: 30px; font-family: 'Courier New', monospace;
+}
+
