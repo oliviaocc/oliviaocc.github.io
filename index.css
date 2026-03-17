@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, rgb(50, 55, 213), rgb(103, 153, 213), rgb(142, 223, 195)); /* Gradient from left to right with multiple colors */
+  background-image: linear-gradient(to right, rgb(50, 55, 213), rgb(103, 153, 213), rgb(142, 223, 195)); /* Gradient from top to bottom with multiple colors */
   min-height: 100vh;
   margin: 0;
 }
