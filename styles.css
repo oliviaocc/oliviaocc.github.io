@@ -1,13 +1,15 @@
 body {
-  background: linear-gradient(pink); size: 200px;
+  height: 20000px;
+  width: 200px;
+  background: radial-gradient(rgb(235, 58, 185), rgb(232, 29, 29), rgb(11, 23, 128));
   
 }
 
 h1 {
-    font-family: 'Courier New', monospace; font-weight: 2000;
+    font-family: 'Helvetica';font-weight: 2000;
 }
 
 p  {
-   color: rgb(97, 144, 216);   margin: 30px; font-family: 'Courier New', monospace;
+   color: rgb(186, 207, 238);   margin: 30px; font-family: 'Courier New', monospace;
 }
 
