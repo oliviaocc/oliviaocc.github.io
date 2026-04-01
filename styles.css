@@ -1,7 +1,7 @@
 body {
   height: 20000px;
   width: 200px;
-  background: radial-gradient(rgb(110, 154, 74), rgb(116, 12, 12), rgb(11, 23, 128));
+  background: radial-gradient(rgb(110, 154, 74), rgb(116, 12, 12), rgb(11, 23, 128)); 
 
 }
 
@@ -13,7 +13,7 @@ p  {
    color: rgb(186, 207, 238); font-family: 'Helvetica';  font-weight: 200; font-size: 20px;
 }
 
-div {width: 500px; margin: 30px; margin-right: 20px;
+div {width: 690px; margin: 90px; margin-right: 20px; 
 
 }
 
@@ -28,6 +28,7 @@ ul {color: rgb(186, 207, 238); font-family: 'Helvetica'; margin-right: 20px; fon
 a {color: rgb(252, 173, 224); font-family: 'Helvetica'; width:1000px; margin: 9px; font-weight: 500;
 
 }
+
 
 img {
   margin-left: 160px; width: 500px;
