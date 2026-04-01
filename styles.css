@@ -10,18 +10,18 @@ h1 {
 }
 
 p  {
-   color: rgb(186, 207, 238); font-family: 'Helvetica';  font-weight: 200; font-size: 30px;
+   color: rgb(186, 207, 238); font-family: 'Helvetica';  font-weight: 200; font-size: 20px;
 }
 
-div {width: 3000px; margin: 30px; margin-right: 20px;
-
-}
-
-h2 {font-family: 'Helvetica'; font-weight: 200; color: #f6efef; padding: 20px; margin-left: 50px; font-size: 60px;
+div {width: 500px; margin: 30px; margin-right: 20px;
 
 }
 
-ul {color: rgb(186, 207, 238); font-family: 'Helvetica'; margin-right: 20px; font-weight: 200; font-size: 30px;
+h2 {font-family: 'Helvetica'; font-weight: 2000; color: #f6efef; padding: 20px; margin-left: 50px; font-size: 20px;
+
+}
+
+ul {color: rgb(186, 207, 238); font-family: 'Helvetica'; margin-right: 20px; font-weight: 200; font-size: 20px;
 
 }
 
