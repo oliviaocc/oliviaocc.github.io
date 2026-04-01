@@ -1,8 +1,8 @@
 body {
   height: 20000px;
   width: 200px;
-  background: radial-gradient(rgb(235, 58, 185), rgb(221, 99, 230), rgb(11, 23, 128));
-  
+  background: radial-gradient(rgb(110, 154, 74), rgb(116, 12, 12), rgb(11, 23, 128));
+
 }
 
 h1 {
@@ -10,18 +10,18 @@ h1 {
 }
 
 p  {
-   color: rgb(186, 207, 238); font-family: 'Helvetica'; width:1000px; margin: 20px; font-weight: 200;
+   color: rgb(186, 207, 238); font-family: 'Helvetica';  font-weight: 200; font-size: 30px;
 }
 
 div {width: 3000px; margin: 30px; margin-right: 20px;
 
 }
 
-h2 {font-family: 'Helvetica'; font-weight: 2000; color: #f6efef;  
+h2 {font-family: 'Helvetica'; font-weight: 200; color: #f6efef; padding: 20px; margin-left: 50px; font-size: 60px;
 
 }
 
-ul {color: rgb(186, 207, 238); font-family: 'Helvetica'; width:1000px; margin: 20px; font-weight: 200;
+ul {color: rgb(186, 207, 238); font-family: 'Helvetica'; margin-right: 20px; font-weight: 200; font-size: 30px;
 
 }
 
@@ -29,10 +29,14 @@ a {color: rgb(252, 173, 224); font-family: 'Helvetica'; width:1000px; margin: 9p
 
 }
 
-.flex-container {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+img {
+  margin-left: 160px; width: 500px;
 }
 
-
+.text-box {
+    background-color: #d34d1754; 
+    padding: 60px;            
+    width: 80%;                       
+    border-radius: 50px;  
+    
+}
