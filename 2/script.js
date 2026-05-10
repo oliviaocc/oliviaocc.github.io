@@ -18,4 +18,23 @@ function updateProgressBar() {
   const value = (video.currentTime / video.duration) * 100;
   progressBar.style.width = value + "%";
 }
+
+const muteUnmuteButton = document.querySelector("#mute-unmute-button");
+console.log(muteUnmuteButton);
+
+muteUnmuteButton.addEventListener("click", toggleAudio);
+
+const muteUnmuteImg = document.querySelector("#mute-unmute-img");
+console.log(muteUnmuteImg);
+
+function toggleAudio() {
+  if (myVideo.muted) {
+    myVideo.muted = false;
+    muteUnmuteImg.src =
+      "https://img.icons8.com/ios-glyphs/30/high-volume--v2.png";
+  } else {
+    myVideo.muted = true;
+    muteUnmuteImg.src = "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
+  }
+}
 // Add other functionalities here

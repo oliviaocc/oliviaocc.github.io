@@ -5,7 +5,7 @@
   --text-color: #ffffff;
   --main-bg-color: #ffffff83;
   --main-text-color: #f4e3e3;
-  --main-btn-bg-color: #f8a7c9;
+  --main-btn-bg-color: #ffbdbd8f;
 
 }
 
@@ -24,7 +24,7 @@ ul {
 
 body {
   font-family: 'Trebuchet MS', sans-serif;
-  font-size: 40;
+  font-size: 30;
   font-weight: 1000;
   background-color: var(--primary-bg-color);
   color: var(--text-color);
