@@ -1,21 +1,29 @@
 :root {
-  --primary-bg-color: #e08f79;
-  --text-color: #f9e0e0;
-  --main-bg-color: #e07a5b;
+  --primary-bg-color: 
+  background: #ffd98c;
+  background: radial-gradient(circle, rgb(255, 236, 198) 0%, rgba(255, 64, 64, 1) 100%);
+  --text-color: #ffffff;
+  --main-bg-color: #ffb0b0;
   --main-text-color: #f4e3e3;
-  --main-btn-bg-color: #f1c9d9;
+  --main-btn-bg-color: #f8a7c9;
+
+}
+
+* {
+  border-radius: 100px;
+  filter: drop-shadow(4px 4px 40px rgba(255, 47, 0, 0.298));
 }
 
 body,
 h1,
 p,
 ul {
-  margin: 0;
-  padding: 0;
+  margin: 60;
+  padding: 10;
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
   font-weight: 1000;
   background-color: var(--primary-bg-color);
   color: var(--text-color);
@@ -58,6 +66,8 @@ nav ul {
 
 nav ul li {
   margin-right: 20px;
+  background-color: rgba(255, 220, 226, 0.673);
+  padding: 40;
 }
 
 nav a {
@@ -119,3 +129,4 @@ footer {
   padding: 10px 0;
   width: 100%;
 }
+
