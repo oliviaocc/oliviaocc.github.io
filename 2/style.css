@@ -24,6 +24,7 @@ ul {
 
 body {
   font-family: 'Trebuchet MS', sans-serif;
+  font-size: 40;
   font-weight: 1000;
   background-color: var(--primary-bg-color);
   color: var(--text-color);
@@ -108,7 +109,7 @@ nav a {
 .progress-bar {
   width: 100%;
   height: 10px;
-  background-color: #ddd;
+  background-color: #ffe6e1;
   margin-top: 10px;
   overflow: hidden;
 }
