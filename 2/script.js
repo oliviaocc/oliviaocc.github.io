@@ -21,7 +21,18 @@ function updateProgressBar() {
   progressBar.style.width = value + "%";
 }
 
+const fastForwardButton = document.querySelector("#fast-forward-button");
+console.log(fastForwardButton);
 
+fastForwardButton.addEventListener("click", fastForward);
+
+function fastForward() {
+  if (video.playbackRate === 1.0) {
+    video.playbackRate = 2.0;
+  } else {
+    video.playbackRate = 1.0;
+  }
+}
 
 
 const muteUnmuteButton = document.querySelector("#mute-unmute-button");
