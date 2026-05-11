@@ -5,6 +5,8 @@ const progressBar = document.querySelector("#progress-bar-fill");
 video.removeAttribute("controls");
 // playPauseBtn.addEventListener("click", togglePlayPause);
 video.addEventListener("timeupdate", updateProgressBar);
+
+
 function togglePlayPause() {
   if (video.paused || video.ended) {
     video.play();
@@ -28,15 +30,17 @@ const muteUnmuteImg = document.querySelector("#mute-unmute-img");
 console.log(muteUnmuteImg);
 
 function toggleAudio() {
-  if (myVideo.muted) {
-    myVideo.muted = false;
+  if (video.muted) {
+    video.unmuted ();
     UnmuteImg.src =
       "https://img.icons8.com/ios-glyphs/30/high-volume--v2.png";
   } else {
-    myVideo.muted = true;
+    video.muted ();
     muteImg.src = "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
   }
 }
+
+
 
 
 // Add other functionalities here

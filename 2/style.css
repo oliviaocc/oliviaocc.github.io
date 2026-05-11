@@ -98,7 +98,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  margin-top: 10px;
+  margin-top: 1px;
   width: 100%;
 }
 
@@ -106,7 +106,7 @@ nav a {
   background-color: var(--main-btn-bg-color);
   color: var(--main-text-color);
   border: none;
-  padding: 8px 8px;
+  padding: 20px 25px;
   cursor: pointer;
   font-size: 16px;
   display: flex;
