@@ -22,24 +22,25 @@ function updateProgressBar() {
 }
 
 const muteUnmuteButton = document.querySelector("#mute-unmute-button");
-console.log(muteUnmuteButton);
+const muteUnmuteImg = document.querySelector("#mute-unmute-img");
 
 muteUnmuteButton.addEventListener("click", toggleAudio);
 
-const muteUnmuteImg = document.querySelector("#mute-unmute-img");
-console.log(muteUnmuteImg);
-
 function toggleAudio() {
-  if (video.muted || video.unmuted) {
-    video.unmuted ();
-    UnmuteImg.src =
-      "https://img.icons8.com/ios-glyphs/30/high-volume--v2.png";
-  } else {
-    video.muted ();
-    muteImg.src = "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
-  }
-}
 
+  // toggle muted true/false
+  video.muted = !video.muted;
+
+  // change icon
+  if (video.muted) {
+    muteUnmuteImg.src =
+      "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
+  } else {
+    muteUnmuteImg.src =
+      "https://img.icons8.com/ios-glyphs/30/high-volume--v2.png";
+  }
+
+}
 
 
 

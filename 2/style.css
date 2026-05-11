@@ -140,3 +140,8 @@ footer {
   box-shadow: outset 4px 4px 8px rgba(255, 222, 222, 0.889)
 }
 
+#mute-unmute-button {
+  position: relative;
+  z-index: 10;
+}
+
