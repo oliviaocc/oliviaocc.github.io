@@ -30,7 +30,7 @@ const muteUnmuteImg = document.querySelector("#mute-unmute-img");
 console.log(muteUnmuteImg);
 
 function toggleAudio() {
-  if (video.muted) {
+  if (video.muted || video.unmuted) {
     video.unmuted ();
     UnmuteImg.src =
       "https://img.icons8.com/ios-glyphs/30/high-volume--v2.png";
