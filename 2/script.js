@@ -21,6 +21,9 @@ function updateProgressBar() {
   progressBar.style.width = value + "%";
 }
 
+
+
+
 const muteUnmuteButton = document.querySelector("#mute-unmute-button");
 const muteUnmuteImg = document.querySelector("#mute-unmute-img");
 
