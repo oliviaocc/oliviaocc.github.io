@@ -30,11 +30,13 @@ console.log(muteUnmuteImg);
 function toggleAudio() {
   if (myVideo.muted) {
     myVideo.muted = false;
-    muteUnmuteImg.src =
+    UnmuteImg.src =
       "https://img.icons8.com/ios-glyphs/30/high-volume--v2.png";
   } else {
     myVideo.muted = true;
-    muteUnmuteImg.src = "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
+    muteImg.src = "https://img.icons8.com/ios-glyphs/30/no-audio--v1.png";
   }
 }
+
+
 // Add other functionalities here
