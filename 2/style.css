@@ -10,9 +10,10 @@
 }
 
 * {
-  border-radius: 100px;
+  border-radius: 300px;
   filter: drop-shadow(4px 4px 40px rgba(255, 47, 0, 0.298));
 }
+
 
 body,
 h1,
@@ -23,9 +24,9 @@ ul {
 }
 
 body {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Nunito";
   font-size: 30;
-  font-weight: 1000;
+  font-weight: 800;
   background-color: var(--primary-bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -43,12 +44,13 @@ body {
 .container {
   max-width: 750px;
   width: 100%;
-  padding: 10px;
+  padding: 50px;
   box-shadow: inset 4px 4px 8px rgba(255, 222, 222, 0.889);
 }
 
 /* Header styling */
 header {
+  font-size: 100px;
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   padding: 10px 0;
@@ -148,4 +150,5 @@ footer {
   position: relative;
   z-index: 10;
 }
+
 
