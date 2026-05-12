@@ -151,16 +151,13 @@ footer {
   z-index: 10;
 }
 
-.volume-control {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 10px;
-}
 
 #volume-slider {
+  margin-top: 10px;
   width: 100px;
   cursor: pointer;
+  box-shadow: outset 4px 4px 8px rgba(255, 222, 222, 0.889);
+  box-shadow: inset 4px 4px 8px rgba(255, 222, 222, 0.889);
 }
 
 
