@@ -56,6 +56,11 @@ function toggleAudio() {
 
 }
 
+const replaybutton = document.querySelector ("#replay-button")
+console.log (replaybutton)
+
+replaybutton.addEventListener ("click")
+
 
 
 // Add other functionalities here

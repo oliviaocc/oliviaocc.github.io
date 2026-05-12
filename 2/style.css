@@ -44,7 +44,7 @@ body {
 .container {
   max-width: 750px;
   width: 100%;
-  padding: 50px;
+  padding: 70px;
   box-shadow: inset 4px 4px 8px rgba(255, 222, 222, 0.889);
 }
 
