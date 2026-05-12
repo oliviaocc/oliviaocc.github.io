@@ -7,6 +7,8 @@ video.removeAttribute("controls");
 video.addEventListener("timeupdate", updateProgressBar);
 
 
+
+
 function togglePlayPause() {
   if (video.paused || video.ended) {
     video.play();
@@ -62,6 +64,14 @@ console.log (replaybutton)
 replaybutton.addEventListener ("click", () => {
  video.currentTime = 0;
  video.play();
+});
+
+
+const audio = document.getElementById("custom-video-player");
+const volumeSlider = document.getElementById("volume-slider");
+
+volumeSlider.addEventListener("input", () => {
+  audio.volume = volumeSlider.value;
 });
 
 
