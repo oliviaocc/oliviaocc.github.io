@@ -122,10 +122,11 @@ nav a {
 }
 
 .progress-bar {
+  gap: 500px;
   width: 100%;
   height: 10px;
   background-color: #ffdad2;
-  margin-top: 10px;
+  margin-bottom: 30;
   overflow: hidden;
   box-shadow: inset 4px 4px 8px rgba(243, 111, 96, 0.889);
 
