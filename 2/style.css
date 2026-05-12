@@ -19,6 +19,7 @@ body,
 h1,
 p,
 ul {
+  flex: 1;
   margin: 60;
   padding: 10;
 }
@@ -31,9 +32,10 @@ body {
   color: var(--text-color);
   line-height: 1.6;
   display: flex;
+  gap: 20px;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-shadow: 2px 2px 30px rgb(255, 89, 0);
 
 }
@@ -42,6 +44,8 @@ body {
 
 /* Create a container for the main content */
 .container {
+  display: flex;
+  gap: 20px;
   max-width: 750px;
   width: 100%;
   padding: 70px;
@@ -159,5 +163,14 @@ footer {
   box-shadow: outset 4px 4px 8px rgba(255, 222, 222, 0.889);
   box-shadow: inset 4px 4px 8px rgba(255, 222, 222, 0.889);
 }
+
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
 
 
