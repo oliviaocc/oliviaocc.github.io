@@ -175,22 +175,25 @@ footer {
 #start-timer-btn {
   background-color: var(--main-bg-color);
   box-shadow: outset 4px 4px 8px rgba(247, 8, 8, 0.829);
-  box-shadow: inset 4px 4px 8px rgba(168, 69, 69, 0.889);
+  box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.889);
   padding: 20px 28px; 
+  color:rgb(255, 120, 120);
 }
 
 #start-music-list {
   background-color: var(--main-bg-color);
   box-shadow: outset 4px 4px 8px rgba(247, 8, 8, 0.829);
-  box-shadow: inset 4px 4px 8px rgba(168, 69, 69, 0.889);
+  box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.889);
   padding: 20px 28px; 
+  color:rgb(255, 120, 120);
 }
 
 #start-sessions {
   background-color: var(--main-bg-color);
   box-shadow: outset 4px 4px 8px rgba(247, 8, 8, 0.829);
-  box-shadow: inset 4px 4px 8px rgba(168, 69, 69, 0.889);
+  box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.889);
   padding: 20px 28px; 
+  color:rgb(255, 120, 120);
 }
 
 
