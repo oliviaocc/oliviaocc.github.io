@@ -203,6 +203,8 @@ footer {
 
 #timer-container {
   display: none; /* Hidden when website first opens */
+  width: 100%;
+  list-style-type: none;
   margin-top: 20px;
   padding: 10px 16px;
   background: #ffe6e696;
@@ -221,6 +223,7 @@ footer {
 
 #timer-toggle-btn,
 #start-btn {
+  width: 90%;
   background: rgba(255, 121, 121, 0.679);
   color: rgb(255, 255, 255);
   border: none;

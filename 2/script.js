@@ -84,7 +84,7 @@ const timerDisplay = document.getElementById("timer-display");
 let timeLeft = 60;
 let timerInterval;
 
-// Open and close timer
+
 timerToggleBtn.addEventListener("click", () => {
   if (timerContainer.style.display === "none") {
     timerContainer.style.display = "block";
@@ -93,7 +93,7 @@ timerToggleBtn.addEventListener("click", () => {
   }
 });
 
-// Start timer
+
 startBtn.addEventListener("click", () => {
   clearInterval(timerInterval);
 
