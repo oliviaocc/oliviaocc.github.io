@@ -76,4 +76,39 @@ volumeSlider.addEventListener("input", () => {
 
 
 
+
+
+
+let timeLeft = 60;
+let timerInterval;
+
+document
+  .getElementById("start-timer-btn")
+  .addEventListener("click", startTimer);
+
+function startTimer() {
+  clearInterval(timerInterval);
+
+  timeLeft = 60;
+
+  timerInterval = setInterval(() => {
+    let minutes = Math.floor(timeLeft / 60);
+    let seconds = timeLeft % 60;
+
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+    document.getElementById(
+      "timer-display"
+    ).textContent = `${minutes}:${seconds}`;
+
+    timeLeft--;
+
+    if (timeLeft < 0) {
+      clearInterval(timerInterval);
+      document.getElementById("timer-display").textContent =
+        "Time's up!";
+    }
+  }, 1000);
+}
+
 // Add other functionalities here
