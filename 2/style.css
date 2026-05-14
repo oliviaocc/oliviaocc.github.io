@@ -192,3 +192,39 @@ footer {
   box-shadow: inset 4px 4px 8px rgba(168, 69, 69, 0.889);
   padding: 20px 28px; 
 }
+
+
+
+
+
+#timer-container {
+  display: none; /* Hidden when website first opens */
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffe6e696;
+  color: white;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: outset 4px 4px 8px rgba(247, 8, 8, 0.829);
+  box-shadow: inset 4px 4px 8px rgba(168, 69, 69, 0.889);
+  padding: 30px 32px; 
+  border-radius: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#timer-toggle-btn,
+#start-btn {
+  background: rgba(255, 121, 121, 0.679);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: outset 4px 4px 8px rgba(247, 8, 8, 0.829);
+  box-shadow: inset 4px 4px 8px rgba(168, 69, 69, 0.889);
+  padding: 20px 28px;
+  justify-content: space-between;
+}

@@ -76,17 +76,25 @@ volumeSlider.addEventListener("input", () => {
 
 
 
-
-
+const timerToggleBtn = document.getElementById("start-timer-btn");
+const timerContainer = document.getElementById("timer-container");
+const startBtn = document.getElementById("start-btn");
+const timerDisplay = document.getElementById("timer-display");
 
 let timeLeft = 60;
 let timerInterval;
 
-document
-  .getElementById("start-timer-btn")
-  .addEventListener("click", startTimer);
+// Open and close timer
+timerToggleBtn.addEventListener("click", () => {
+  if (timerContainer.style.display === "none") {
+    timerContainer.style.display = "block";
+  } else {
+    timerContainer.style.display = "none";
+  }
+});
 
-function startTimer() {
+// Start timer
+startBtn.addEventListener("click", () => {
   clearInterval(timerInterval);
 
   timeLeft = 60;
@@ -97,18 +105,17 @@ function startTimer() {
 
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
-    document.getElementById(
-      "timer-display"
-    ).textContent = `${minutes}:${seconds}`;
+    timerDisplay.textContent = `${minutes}:${seconds}`;
 
     timeLeft--;
 
     if (timeLeft < 0) {
       clearInterval(timerInterval);
-      document.getElementById("timer-display").textContent =
-        "Time's up!";
+      timerDisplay.textContent = "Time's up!";
     }
   }, 1000);
-}
+});
+
+
 
 // Add other functionalities here
