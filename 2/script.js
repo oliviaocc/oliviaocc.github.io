@@ -58,6 +58,11 @@ function toggleAudio() {
 
 }
 
+
+
+// Adding javascript functions after creating id sources in html were difficult at times, as the labels/classes for elements would change in the script and I would forget to update them. Because of this I tried as much as possible to be consistent/concise with element labels (e.g. video-player, timer)
+
+
 const replaybutton = document.querySelector ("#replay-button")
 console.log (replaybutton)
 
@@ -65,6 +70,11 @@ replaybutton.addEventListener ("click", () => {
  video.currentTime = 0;
  video.play();
 });
+
+
+
+// The volume function was difficult for me to add in, as adding the icons and the volume bar together wasn’t fitting in right against the already existing audio progress bar. Because of this I had to minimize it more than the first iteration I had, making it more concise with the other elements.
+
 
 
 const audio = document.getElementById("custom-video-player");
@@ -117,11 +127,19 @@ startBtn.addEventListener("click", () => {
 });
 
 
+// Apart from the functions that were sourced from the original website, most of the functions such as timer and the volume slider were mainly figured out through trial and error. Some of these functions I had to look up in order to understand properly, and after this I would have to configure them to the context of my own code.
+
+
 
 const startmusiclist = document.getElementById("start-music-list");
 const musicContainer = document.getElementById("music-container");
 const audioPlayer = document.getElementById("audio-player");
 const songButtons = document.querySelectorAll(".song-btn");
+
+
+
+// Additionally I included the use of a playlist/music button that allows the user to switch through different music options as they work, which directly connects to the audio player.
+
 
 // Open / close music menu
 startmusiclist.addEventListener("click", () => {

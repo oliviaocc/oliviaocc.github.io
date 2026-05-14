@@ -9,6 +9,12 @@
 
 }
 
+/* The root and ‘*’ sections in CSS were very efficient for classing a similar style across all of the elements through minimal lines of code. */
+
+
+/* Inspired by my chosen context, I decided to use a warm colour palette with a rounded font style which won’t be too overwhelming for the user to adjust to. */
+
+
 * {
   justify-content: center;
   border-radius: 300px;
@@ -198,6 +204,7 @@ footer {
 }
 
 
+/* The code that I spent the most time on was the CSS for the elements, as when I would add in new javascript functions for the buttons or navigational menu the styling would automatically change. I would spend a lot of time on the padding and margins of the elements/buttons, as most of the time they would initially not align correctly. */
 
 
 
