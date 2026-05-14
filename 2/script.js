@@ -118,4 +118,30 @@ startBtn.addEventListener("click", () => {
 
 
 
+const startmusiclist = document.getElementById("start-music-list");
+const musicContainer = document.getElementById("music-container");
+const audioPlayer = document.getElementById("audio-player");
+const songButtons = document.querySelectorAll(".song-btn");
+
+// Open / close music menu
+startmusiclist.addEventListener("click", () => {
+  if (musicContainer.style.display === "flex") {
+    musicContainer.style.display = "none";
+  } else {
+    musicContainer.style.display = "flex";
+  }
+});
+
+// Change song when clicked
+songButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const song = button.getAttribute("data-song");
+
+   video.src = song;
+
+    video.play();
+  });
+});
+
+
 // Add other functionalities here
