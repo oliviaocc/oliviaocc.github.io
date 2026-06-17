@@ -1,3 +1,8 @@
+* {
+  border-radius: 70px;
+}
+
+
 html, body {
   height: 100%;
   margin: 70px;
@@ -14,9 +19,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center; 
-    font-family: "Atma", system-ui; font-weight: 700; font-style: normal; font-size: 70px;
+    font-family: "Atma", system-ui; font-weight: 700; font-style: normal; font-size: 100px;
     color: rgb(219, 234, 247);
     text-shadow: 2px 11px 4px rgba(14, 13, 75, 0.224);
+    box-shadow: 0 80px 20px 0 rgba(57, 8, 8, 0.356);
+    margin-bottom: 100px;
     
 }
 
@@ -42,16 +49,20 @@ p {
 }
 
 .card {
-  margin: 4px;
+  size: 20px;
+  width: 600px;
+  margin: 0 auto;
   padding: 1px;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   flex-direction: column;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.843);
   transition: 0.3s;
+  margin-bottom: 100px;
 }
 
 .container {
+  size: 20px;
   margin: 40px;
   padding: 10px;
   
