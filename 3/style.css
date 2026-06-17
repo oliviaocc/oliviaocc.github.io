@@ -20,7 +20,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center; 
-    font-family: "Atma", system-ui; font-weight: 700; font-style: normal; font-size: 150px;
+    font-family: "Atma", system-ui; font-weight: 700; font-style: normal; font-size: 90px;
     color: rgb(237, 247, 255);
     text-shadow: 21px 25px 20px rgba(14, 13, 75, 0.224); 
     margin-bottom: 100px;
@@ -49,7 +49,7 @@ p {
 }
 
 .card {
-  size: 20px;
+  size: 2px;
   width: 600px;
   margin: 0 auto;
   padding: 1px;
@@ -59,13 +59,13 @@ p {
   box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.843);
   transition: 0.3s;
   margin-bottom: 100px;
-  background-color: #759da9ba;
+  background-color: #62bee35e;
 }
 
 .container {
   size: 20px;
   margin: 40px;
-  padding: 10px;
+  padding: 1px;
   
 }
 
@@ -75,13 +75,15 @@ p {
   gap: 40px;
   padding: 10;
   margin: 0;
-  font-family: "Atma", system-ui; font-weight: 600; font-style: normal; font-size: 40px;
+  font-family: "Atma", system-ui; font-weight: 600; font-style: normal; font-size: 24px;
   color: rgb(255, 255, 255); 
   background-color: rgba(187, 233, 255, 0.565);
-  width: 700px;
+  width: 450px;
   display: flex;
   justify-content: center;
   align-items: center; 
+  transition: all 0.3s ease;
+   padding: 50px;
 }
 
 nav {
@@ -90,4 +92,11 @@ nav {
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+ 
+}
+
+.nav-links a:hover {
+  background-color: #b3ddff;
+  color: #000;
+  transform: scale(1.05);
 }
