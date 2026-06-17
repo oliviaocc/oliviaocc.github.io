@@ -11,7 +11,8 @@ html, body {
 
 
 body {
-    background: rgb(149, 189, 209)
+    background-image: radial-gradient(rgb(29, 24, 45), rgb(28, 28, 49), black);
+
 }
 
 h1 {
@@ -22,7 +23,7 @@ h1 {
     align-items: center; 
     font-family: "Atma", system-ui; font-weight: 700; font-style: normal; font-size: 200px;
     color: rgb(237, 247, 255);
-    text-shadow: 21px 25px 20px rgba(14, 13, 75, 0.224); 
+    text-shadow: 21px 25px 20px rgba(255, 162, 238, 0.204); 
     margin-bottom: 100px;
     transition: all 0.3s ease;
     
@@ -68,8 +69,118 @@ p {
   box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.843);
   transition: 0.3s;
   margin-bottom: 100px;
-  background-color: #62bee35e;
+  background-color: #3f444d5e;
+  transition: 0.3s ease;
 }
+
+
+.card:hover {
+  transform: translateY(-8px);
+   background-color: #b9b9b97b;
+
+  box-shadow: 0 90px 20px rgba(0,0,0,0.2);
+ filter: contrast(120%) brightness(105%);
+
+  animation: bounceLoop 0.8s infinite;
+ 
+
+}
+
+@keyframes bounceLoop {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+.card2 {
+  size: 2px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 8px 10px 0 rgba(255, 246, 247, 0.843);
+  transition: 0.3s;
+  margin-bottom: 100px;
+  background-color: #3f444d5e;
+  transition: 0.3s ease;
+}
+
+.card2:hover {
+  transform: translateX(-15px) scale(1.04);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+  background-color: #ffffff87;
+  filter: contrast(120%) brightness(105%);
+
+   
+ animation: flicker 0.4s infinite alternate;
+
+}
+
+
+ @keyframes flicker {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  }
+  25% {
+    box-shadow: 0 0 20px rgba(50, 139, 255, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(50, 77, 255, 0.3);
+  }
+  75% {
+    box-shadow: 0 0 20px rgba(50, 135, 255, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(50, 108, 255, 0.5);
+  }
+  
+}
+
+.card3 {
+  size: 2px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.843);
+  transition: 0.3s;
+  margin-bottom: 100px;
+  background-color: #3f444d5e;
+  transition: 0.3s ease;
+}
+
+
+
+.card3:hover:hover {
+ 
+ background-color: rgba(255, 221, 221, 0.678);
+  animation: wobble 0.6s;
+   filter: contrast(120%) brightness(105%);
+
+}
+
+@keyframes wobble {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  75% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+
+
 
 .container {
   size: 20px;
@@ -114,12 +225,12 @@ nav {
 }
 
 .nav-links a:hover {
-  background-color: #fff0acb8;
+  background-color: #ffcece88;
   transform: scale(1.07);
   box-shadow: 0 10px 12px rgba(0,0,0,0.2);
-  width: 70px;
+  width: 90px;
   border-radius: 2000px;
-  transform: scale(1.6);
+  transform: scale(1.7);
 
   
   
