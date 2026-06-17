@@ -69,19 +69,19 @@ p {
   box-shadow: 0 8px 10px 0 rgba(255, 255, 255, 0.843);
   transition: 0.3s;
   margin-bottom: 100px;
-  background-color: #3f444d5e;
+  background-color: #4d3f3f5e;
   transition: 0.3s ease;
 }
 
 
 .card:hover {
-  transform: translateY(-8px);
-   background-color: #b9b9b97b;
+  transform: translateY(-11px);
+   background-color: #ff55559a;
 
-  box-shadow: 0 90px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 9px 20px rgba(255, 255, 255, 0.534);
  filter: contrast(120%) brightness(105%);
 
-  animation: bounceLoop 0.8s infinite;
+  animation: bounceLoop 1s infinite;
  
 
 }
@@ -117,7 +117,7 @@ p {
 .card2:hover {
   transform: translateX(-15px) scale(1.04);
   box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-  background-color: #ffffff87;
+  background-color: #66ef7f87;
   filter: contrast(120%) brightness(105%);
 
    
@@ -164,7 +164,7 @@ p {
 
 .card3:hover:hover {
  
- background-color: rgba(255, 221, 221, 0.678);
+ background-color: rgba(255, 198, 113, 0.794);
   animation: wobble 0.6s;
    filter: contrast(120%) brightness(105%);
 
