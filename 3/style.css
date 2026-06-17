@@ -1,5 +1,5 @@
 * {
-  border-radius: 70px;
+  border-radius: 90px;
   margin-bottom: 20px;
 }
 
@@ -22,8 +22,7 @@ h1 {
     align-items: center; 
     font-family: "Atma", system-ui; font-weight: 700; font-style: normal; font-size: 150px;
     color: rgb(237, 247, 255);
-    text-shadow: 2px 11px 4px rgba(14, 13, 75, 0.224); 
-  
+    text-shadow: 21px 25px 20px rgba(14, 13, 75, 0.224); 
     margin-bottom: 100px;
     
 }
@@ -71,4 +70,24 @@ p {
 }
 
 
+.nav-links {
+  list-style: none;   
+  gap: 40px;
+  padding: 10;
+  margin: 0;
+  font-family: "Atma", system-ui; font-weight: 600; font-style: normal; font-size: 40px;
+  color: rgb(255, 255, 255); 
+  background-color: rgba(187, 233, 255, 0.565);
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
 
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
