@@ -24,7 +24,15 @@ h1 {
     color: rgb(237, 247, 255);
     text-shadow: 21px 25px 20px rgba(14, 13, 75, 0.224); 
     margin-bottom: 100px;
+    transition: all 0.3s ease;
     
+    
+    
+}
+
+h1:hover {
+  color: #306eab8f;
+  transform: scale(1.8s);
 }
 
 img {
@@ -77,13 +85,13 @@ p {
   margin: 0;
   font-family: "Atma", system-ui; font-weight: 600; font-style: normal; font-size: 24px;
   color: rgb(255, 255, 255); 
-  background-color: rgba(187, 233, 255, 0.565);
-  width: 450px;
+
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center; 
   transition: all 0.3s ease;
-   padding: 50px;
+   padding: px
 }
 
 nav {
@@ -95,8 +103,35 @@ nav {
  
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block; 
+  transition: 0.3s ease;
+}
+
 .nav-links a:hover {
-  background-color: #b3ddff;
-  color: #000;
-  transform: scale(1.05);
+  background-color: #fff0acb8;
+  transform: scale(1.07);
+  box-shadow: 0 10px 12px rgba(0,0,0,0.2);
+  width: 70px;
+  border-radius: 2000px;
+  transform: scale(1.6);
+
+  
+  
+}
+
+.h1:hover {
+  background-color: #fff0acb8;
+  transform: scale(1.07);
+  box-shadow: 0 10px 12px rgba(0,0,0,0.2);
+  width: 70px;
+  border-radius: 2000px;
+  transform: scale(1.6);
+
+  
+  
 }
