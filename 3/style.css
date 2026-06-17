@@ -20,7 +20,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center; 
-    font-family: "Atma", system-ui; font-weight: 700; font-style: normal; font-size: 90px;
+    font-family: "Atma", system-ui; font-weight: 700; font-style: normal; font-size: 200px;
     color: rgb(237, 247, 255);
     text-shadow: 21px 25px 20px rgba(14, 13, 75, 0.224); 
     margin-bottom: 100px;
@@ -28,11 +28,12 @@ h1 {
     
     
     
+    
 }
 
 h1:hover {
-  color: #306eab8f;
-  transform: scale(1.8s);
+  color: #f0ecff;
+  transform: scale(1.2);
 }
 
 img {
@@ -113,18 +114,6 @@ nav {
 }
 
 .nav-links a:hover {
-  background-color: #fff0acb8;
-  transform: scale(1.07);
-  box-shadow: 0 10px 12px rgba(0,0,0,0.2);
-  width: 70px;
-  border-radius: 2000px;
-  transform: scale(1.6);
-
-  
-  
-}
-
-.h1:hover {
   background-color: #fff0acb8;
   transform: scale(1.07);
   box-shadow: 0 10px 12px rgba(0,0,0,0.2);
