@@ -2,8 +2,8 @@
   border-radius: 90px;
   margin-bottom: 20px;
 }
-
-
+/* I thought that I would have to rely on javascript for the majority of my animations/interactive elements, but I found that many of the various hover effects could be designed just through CSS. */
+/* Ideally I think the layout needed to be smaller to fit the dimensions of a html webpage, but I found it was more difficult to go back and resize elements after adding animations and effects. I will keep in mind to frequently check element scale in future projects. */
 html, body {
   height: 100%;
   margin: 70px;
@@ -27,7 +27,7 @@ h1 {
     margin-bottom: 100px;
     transition: all 0.3s ease;
     
-    
+ /* I decided on a font that is playful but easy to read quickly for the user, while still being readable after the hover effects are layered on. */
     
     
 }
@@ -57,7 +57,7 @@ p {
    font-family: "Atma", system-ui; font-weight: 500; font-style: normal; font-size: 40px;
    color: rgb(255, 255, 255); 
 }
-
+/* I used card elements for my container features for the first time, and experimented with their positioning before deciding on a vertical layout for user efficiency. */
 .card {
   size: 2px;
   width: 600px;
@@ -73,7 +73,8 @@ p {
   transition: 0.3s ease;
 }
 
-
+/* It was my first time figuring out how to use card elements on a html page, I had to trial and error with the code multiple times. The gaps between elements weren’t enlarged enough, making them not appear as separated as I wanted them to be. */
+/* This was resolved through the flexbox/display function, and testing through various styles before settling on the column one which was the most appropriate for my context. */
 .card:hover {
   transform: translateY(-11px);
    background-color: #ff55559a;
@@ -86,6 +87,10 @@ p {
 
 }
 
+/* In the first card, I wanted to keep the interactive feedback to a minimal level - using a looped bounce animation to signify the mouse movement of the user. */
+
+/* The easy ease animation of the hover function is used as a constant thematic element in all of the ineteractivt sections, encouraging more exploration of the site to the user. */
+
 @keyframes bounceLoop {
   0%, 100% {
     transform: translateY(0);
@@ -96,7 +101,7 @@ p {
   }
 }
 
-
+/* Through my context and action, I wanted to build a shopping/browsing experience with minimal titles/headings to direct the user to different content - and rely more on unique interactive experiences as a category system. I reflected this through the use of different hover styles for several elements within the webpage. */
 
 
 .card2 {
@@ -113,6 +118,8 @@ p {
   background-color: #3f444d5e;
   transition: 0.3s ease;
 }
+
+/* The second card was more of a challenge, as I wanted to do something different without being too visually overstimulating. I implemented a subtle backlight ‘flicker’ effect that activates, through switching between different box-shadow tones rapidly and creating this glow effect. */
 
 .card2:hover {
   transform: translateX(-15px) scale(1.04);
@@ -160,7 +167,7 @@ p {
   transition: 0.3s ease;
 }
 
-
+/* The final card I wanted to be distinct from the others, so I opted to use a quick but playful bounce effect, using wobble animation keyframes to achieve this. */
 
 .card3:hover:hover {
  
@@ -169,6 +176,9 @@ p {
    filter: contrast(120%) brightness(105%);
 
 }
+
+
+/* Additionally when the mouse hovers over the images they brighten slightly in saturation, reinforcing to the users that these items are ‘activated’ upon their interaction/browsing activity. */
 
 @keyframes wobble {
   0% { transform: rotate(0deg); }
